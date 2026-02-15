@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lalitpur Global Ed | Your Journey to Global Excellence</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "nepal-red": "#DC143C",
+                        "nepal-blue": "#003893",
+                        "nepal-gold": "#FFD700",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+        }
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-30px) rotate(3deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+        .animate-float {
+            animation: float 8s ease-in-out infinite;
+        }
+        .hero-gradient {
+            background: 
+                radial-gradient(circle at 10% 20%, rgba(17, 82, 212, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(220, 14, 60, 0.08) 0%, transparent 40%),
+                linear-gradient(135deg, #ffffff 0%, #f6f6f8 100%);
+        }
+        .text-clip {
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(135deg, #1152d4, #003893);
+        }
+        .nepal-shape {
+            clip-path: polygon(0% 0%, 100% 30%, 40% 35%, 100% 100%, 0% 100%);
+        }
+        .glow-heavy {
+            box-shadow: 0 20px 50px rgba(17, 82, 212, 0.15);
+        }
+        .asymmetric-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2rem;
+        }
+    </style>
+</head>
+<body class="font-display bg-background-light text-slate-900 overflow-x-hidden">
+<!-- Sticky Glassmorphism Navbar -->
+<nav class="fixed top-0 left-0 right-0 z-50 glass-nav">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="size-10 bg-nepal-blue rounded-lg flex items-center justify-center text-white shadow-lg shadow-nepal-blue/20">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<div>
+<h1 class="font-bold text-xl tracking-tight text-nepal-blue leading-none">Lalitpur Global Ed</h1>
+<p class="text-[10px] uppercase tracking-widest font-semibold text-nepal-red mt-1">Excellence in Nepal</p>
+</div>
+</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="visa.html">Services</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Universities</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Success Stories</a>
+<button class="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-primary/25 hover:scale-105 transition-all">Consult Now</button>
+</div>
+</div>
+</nav>
+<!-- Dynamic Hero Carousel Section -->
+<section class="relative min-h-screen flex items-center pt-32 pb-48 overflow-hidden hero-gradient">
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-nepal-blue/5 rounded-full blur-3xl"></div>
+<div class="absolute top-1/2 -right-48 w-[600px] h-[600px] bg-nepal-red/5 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="asymmetric-grid">
+<div class="col-span-12 lg:col-span-7 space-y-10">
+<div class="inline-flex items-center gap-3 px-5 py-2 rounded-full glass-card text-nepal-red text-xs font-black uppercase tracking-[0.2em]">
+<span class="flex size-2 rounded-full bg-nepal-red animate-pulse"></span>
+                    MOE Approved Excellence
+                </div>
+<h2 class="text-7xl md:text-8xl font-black text-slate-900 leading-[0.9] tracking-tight">
+                    Your Global <br/><span class="text-clip">Journey</span> <br/>Starts Here
+                </h2>
+<p class="text-xl text-slate-600 max-w-xl leading-relaxed font-medium">
+                    Connecting Nepalese ambition with world-class opportunities. Expert guidance from the heart of Lalitpur.
+                </p>
+<div class="flex flex-wrap gap-6 pt-4">
+<button class="px-10 py-5 bg-nepal-blue text-white rounded-2xl font-bold flex items-center gap-3 hover:bg-nepal-blue/90 glow-heavy transition-all transform hover:-translate-y-1">
+                        Explore Destinations
+                        <span class="material-symbols-outlined">north_east</span>
+</button>
+<button class="px-10 py-5 glass-card text-slate-900 rounded-2xl font-bold flex items-center gap-3 hover:bg-white transition-all transform hover:-translate-y-1">
+                        Success Stories
+                        <span class="material-symbols-outlined">play_arrow</span>
+</button>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-5 relative mt-20 lg:mt-0">
+<div class="relative animate-float">
+<div class="absolute -inset-10 bg-gradient-to-tr from-nepal-blue/20 to-nepal-red/20 blur-3xl opacity-50"></div>
+<div class="relative aspect-[4/5] rounded-[3rem] overflow-hidden glow-heavy border-[12px] border-white/50">
+<img alt="Student Success" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoAMoHDHHn3VxckDhKoh44imjZ7V1Io0I0xY7u7gc-hVev5ws2xcm23qMfCy6Xnt5Nja9GZHu-ZYN8yRzvb5pCEIG6-zGVFW7w-PkBHevTFrOAiIycgaB7rfZqh_Ugg0O6Q5ZlBMPBUxr1tsuD6kF2lE_Tfarh_8XiUlAxf9opyO0e3R2bJwUnzhwOELnRShKI0ka4DxFWm5mQL_fBKbUgY5Q47x6EGOAZIPOmqhHZWprBOHMBm9ZpmUddk420RUxpNMNi1z7nElo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-10 left-10 right-10">
+<div class="p-6 glass-card rounded-2xl">
+<p class="text-nepal-gold text-sm font-black tracking-widest uppercase mb-1">Top Choice</p>
+<h3 class="text-2xl font-bold text-white">University of Melbourne</h3>
+</div>
+</div>
+</div>
+<div class="absolute -top-12 -right-12 w-40 h-52 bg-nepal-red nepal-shape shadow-2xl flex items-center justify-center -rotate-12 hover:rotate-0 transition-transform duration-500">
+<span class="material-symbols-outlined text-white text-5xl">workspace_premium</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-20 left-1/2 -translate-x-1/2 flex items-center gap-6">
+<div class="flex gap-3">
+<div class="w-12 h-1.5 rounded-full bg-nepal-blue"></div>
+<div class="w-3 h-1.5 rounded-full bg-slate-300"></div>
+<div class="w-3 h-1.5 rounded-full bg-slate-300"></div>
+</div>
+</div>
+</section>
+<!-- Glowing Statistics Module -->
+<section class="relative z-20 -mt-32">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="glass-card p-12 rounded-[2.5rem] transform hover:-translate-y-4 transition-all duration-500 group">
+<p class="text-slate-500 font-bold tracking-widest uppercase text-xs mb-4">Students Placed</p>
+<h3 class="text-6xl font-black text-nepal-blue mb-4 tracking-tighter">5000+</h3>
+<div class="w-16 h-2 bg-nepal-red rounded-full mb-6 group-hover:w-full transition-all duration-700"></div>
+<p class="text-slate-600 font-medium">Paving paths for Nepali talent globally.</p>
+</div>
+<div class="glass-card p-12 rounded-[2.5rem] mt-8 transform hover:-translate-y-4 transition-all duration-500 group">
+<p class="text-slate-500 font-bold tracking-widest uppercase text-xs mb-4">Partners</p>
+<h3 class="text-6xl font-black text-slate-900 mb-4 tracking-tighter">200+</h3>
+<div class="w-16 h-2 bg-nepal-blue rounded-full mb-6 group-hover:w-full transition-all duration-700"></div>
+<p class="text-slate-600 font-medium">Direct global academic ties.</p>
+</div>
+<div class="glass-card p-12 rounded-[2.5rem] transform hover:-translate-y-4 transition-all duration-500 group">
+<p class="text-slate-500 font-bold tracking-widest uppercase text-xs mb-4">Success Rate</p>
+<h3 class="text-6xl font-black text-primary mb-4 tracking-tighter">98%</h3>
+<div class="w-16 h-2 bg-nepal-gold rounded-full mb-6 group-hover:w-full transition-all duration-700"></div>
+<p class="text-slate-600 font-medium">Excellence in every application.</p>
+</div>
+</div>
+</div>
+</section><!-- Why Choose Us Section -->
+<section class="py-32 bg-white/50 relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-nepal-red text-sm font-black uppercase tracking-[0.3em] mb-4">The Lalitpur Edge</h2>
+<h3 class="text-5xl font-black text-slate-900">Why Choose Us</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="glass-card p-8 rounded-3xl hover:-translate-y-2 transition-all duration-300">
+<div class="size-14 bg-nepal-blue/10 rounded-2xl flex items-center justify-center text-nepal-blue mb-6">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Expert Guidance</h4>
+<p class="text-slate-600 text-sm leading-relaxed">Certified counselors with decades of collective experience in global admissions.</p>
+</div>
+<div class="glass-card p-8 rounded-3xl hover:-translate-y-2 transition-all duration-300">
+<div class="size-14 bg-nepal-red/10 rounded-2xl flex items-center justify-center text-nepal-red mb-6">
+<span class="material-symbols-outlined text-3xl">trending_up</span>
+</div>
+<h4 class="text-xl font-bold mb-3">High Success Rate</h4>
+<p class="text-slate-600 text-sm leading-relaxed">Proven track record of 98% visa success across all major study destinations.</p>
+</div>
+<div class="glass-card p-8 rounded-3xl hover:-translate-y-2 transition-all duration-300">
+<div class="size-14 bg-nepal-gold/10 rounded-2xl flex items-center justify-center text-nepal-gold mb-6">
+<span class="material-symbols-outlined text-3xl">person_search</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Personalized Counseling</h4>
+<p class="text-slate-600 text-sm leading-relaxed">Tailored roadmaps matching your profile with the perfect university fit.</p>
+</div>
+<div class="glass-card p-8 rounded-3xl hover:-translate-y-2 transition-all duration-300">
+<div class="size-14 bg-slate-900/10 rounded-2xl flex items-center justify-center text-slate-900 mb-6">
+<span class="material-symbols-outlined text-3xl">flight_land</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Post-Arrival Support</h4>
+<p class="text-slate-600 text-sm leading-relaxed">From airport pickups to accommodation, we're with you after you land.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Popular Study Destinations -->
+<section class="py-32 bg-background-light">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div>
+<h2 class="text-nepal-blue text-sm font-black uppercase tracking-[0.3em] mb-4">Global Reach</h2>
+<h3 class="text-5xl font-black text-slate-900">Popular Destinations</h3>
+</div>
+<button class="px-8 py-3 bg-white border border-slate-200 rounded-full font-bold text-sm hover:bg-slate-50 transition-all">View All Countries</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="relative h-[400px] rounded-[2.5rem] overflow-hidden group">
+<img alt="Australia" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7DqV9D64Qp28VvFmU7m1uM1i1m1i1m1i1m1i1m1i1m1i"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<h4 class="text-2xl font-bold text-white mb-2">Australia</h4>
+<p class="text-nepal-gold text-xs font-black uppercase tracking-widest">120+ Partner Unis</p>
+</div>
+</div>
+<div class="relative h-[400px] rounded-[2.5rem] overflow-hidden group">
+<img alt="United Kingdom" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7DqV9D64Qp28VvFmU7m1uM1i1m1i1m1i1m1i1m1i1m1i"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<h4 class="text-2xl font-bold text-white mb-2">United Kingdom</h4>
+<p class="text-nepal-gold text-xs font-black uppercase tracking-widest">80+ Partner Unis</p>
+</div>
+</div>
+<div class="relative h-[400px] rounded-[2.5rem] overflow-hidden group lg:translate-y-8">
+<img alt="USA" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7DqV9D64Qp28VvFmU7m1uM1i1m1i1m1i1m1i1m1i1m1i"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<h4 class="text-2xl font-bold text-white mb-2">USA</h4>
+<p class="text-nepal-gold text-xs font-black uppercase tracking-widest">150+ Partner Unis</p>
+</div>
+</div>
+<div class="relative h-[400px] rounded-[2.5rem] overflow-hidden group lg:translate-y-8">
+<img alt="Canada" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7DqV9D64Qp28VvFmU7m1uM1i1m1i1m1i1m1i1m1i1m1i"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<h4 class="text-2xl font-bold text-white mb-2">Canada</h4>
+<p class="text-nepal-gold text-xs font-black uppercase tracking-widest">60+ Partner Unis</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Success Stories Section -->
+<section class="py-32 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-nepal-red text-sm font-black uppercase tracking-[0.3em] mb-4">Voices of Success</h2>
+<h3 class="text-5xl font-black text-slate-900">Student Testimonials</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<div class="glass-card p-10 rounded-[2rem] relative">
+<div class="flex text-nepal-gold mb-6">
+<span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-slate-600 mb-8 italic">"The guidance I received for my visa application to Australia was impeccable. They made the complex process feel simple."</p>
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-full bg-slate-200 overflow-hidden"><img alt="Student" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7DqV9D64Qp28VvFmU7m1uM1i1m1i1m1i1m1i1m1i1m1i"/></div>
+<div>
+<h5 class="font-bold">Anjali Rai</h5>
+<p class="text-xs text-primary">University of Sydney</p>
+</div>
+</div>
+</div>
+<div class="glass-card p-10 rounded-[2rem] relative bg-nepal-blue text-white border-0">
+<div class="flex text-nepal-gold mb-6">
+<span class="material-symbols-outlined fill-current">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-white/80 mb-8 italic">"IELTS preparation classes at Lalitpur Global Ed were the key to my 8.0 score. Highly recommended for serious students."</p>
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-full bg-white/20 overflow-hidden"><img alt="Student" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7DqV9D64Qp28VvFmU7m1uM1i1m1i1m1i1m1i1m1i1m1i"/></div>
+<div>
+<h5 class="font-bold">Suman Pandey</h5>
+<p class="text-xs text-nepal-gold">University of Manchester</p>
+</div>
+</div>
+</div>
+<div class="glass-card p-10 rounded-[2rem] relative">
+<div class="flex text-nepal-gold mb-6">
+<span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-slate-600 mb-8 italic">"Expert counseling helped me find a scholarship in the USA that I didn't even know existed. Life-changing experience!"</p>
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-full bg-slate-200 overflow-hidden"><img alt="Student" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7DqV9D64Qp28VvFmU7m1uM1i1m1i1m1i1m1i1m1i1m1i"/></div>
+<div>
+<h5 class="font-bold">Rohan Shrestha</h5>
+<p class="text-xs text-primary">University of Texas</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Latest Updates & Events -->
+<section class="py-32 bg-background-light overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="asymmetric-grid items-center">
+<div class="col-span-12 lg:col-span-5">
+<h2 class="text-nepal-red text-sm font-black uppercase tracking-[0.3em] mb-4">Stay Informed</h2>
+<h3 class="text-5xl font-black text-slate-900 mb-8 leading-tight">Latest Updates <br/>&amp; Events</h3>
+<p class="text-slate-600 mb-10 text-lg">Don't miss out on our upcoming seminars, mock test schedules, and university visit days.</p>
+<button class="px-10 py-5 bg-nepal-blue text-white rounded-2xl font-bold flex items-center gap-3 hover:bg-nepal-blue/90 transition-all">View Event Calendar <span class="material-symbols-outlined">calendar_month</span></button>
+</div>
+<div class="col-span-12 lg:col-span-7 space-y-4 mt-12 lg:mt-0">
+<div class="glass-card p-6 rounded-2xl flex items-center gap-6 group hover:bg-white transition-all cursor-pointer">
+<div class="bg-nepal-red text-white p-4 rounded-xl text-center min-w-[80px]">
+<span class="block text-2xl font-black">24</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">OCT</span>
+</div>
+<div class="flex-1">
+<h5 class="font-bold text-lg mb-1 group-hover:text-nepal-red transition-colors">Australia Education Fair 2024</h5>
+<p class="text-slate-500 text-sm">Meet representatives from 15+ top Australian universities.</p>
+</div>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-nepal-red transition-colors">arrow_forward_ios</span>
+</div>
+<div class="glass-card p-6 rounded-2xl flex items-center gap-6 group hover:bg-white transition-all cursor-pointer">
+<div class="bg-nepal-blue text-white p-4 rounded-xl text-center min-w-[80px]">
+<span class="block text-2xl font-black">02</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">NOV</span>
+</div>
+<div class="flex-1">
+<h5 class="font-bold text-lg mb-1 group-hover:text-nepal-blue transition-colors">Free IELTS Mock Test</h5>
+<p class="text-slate-500 text-sm">Experience the real test environment and get expert feedback.</p>
+</div>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-nepal-blue transition-colors">arrow_forward_ios</span>
+</div>
+<div class="glass-card p-6 rounded-2xl flex items-center gap-6 group hover:bg-white transition-all cursor-pointer">
+<div class="bg-slate-900 text-white p-4 rounded-xl text-center min-w-[80px]">
+<span class="block text-2xl font-black">15</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">NOV</span>
+</div>
+<div class="flex-1">
+<h5 class="font-bold text-lg mb-1 group-hover:text-slate-900 transition-colors">Visa Success Seminar: UK/USA</h5>
+<p class="text-slate-500 text-sm">Learn the secrets to a perfect visa file from our senior officers.</p>
+</div>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-slate-900 transition-colors">arrow_forward_ios</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Services Grid -->
+<section class="py-40 bg-white relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-16"><h2 class="text-nepal-red text-sm font-black uppercase tracking-[0.3em] mb-6">Our Expertise</h2>
+<h3 class="text-6xl font-black text-slate-900 mb-8 leading-tight">Dynamic Solutions for <br/>Global Ambitions</h3>
+<p class="text-xl text-slate-500 max-w-xl mx-auto font-medium">Holistic support systems engineered for your success.</p></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Service 1 -->
+<div class="group p-8 rounded-2xl border border-slate-100 hover:border-primary/20 hover:bg-slate-50/50 transition-all cursor-pointer glass-card !border-0 hover:glow-heavy !rounded-[2rem] p-10">
+<div class="size-14 bg-slate-100 rounded-xl flex items-center justify-center text-slate-600 group-hover:bg-primary group-hover:text-white transition-all mb-6">
+<span class="material-symbols-outlined text-3xl group-hover:scale-110 transition-transform">edit_note</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 mb-4">Test Preparation</h4>
+<p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Expert coaching for IELTS, PTE, and TOEFL with modern lab facilities and weekly mock tests to guarantee high scores.
+                    </p>
+<a class="inline-flex items-center gap-2 text-primary text-sm font-bold" href="#">
+                        Learn More <span class="material-symbols-outlined text-lg">arrow_right_alt</span>
+</a>
+</div>
+<!-- Service 2 -->
+<div class="group p-8 rounded-2xl border border-slate-100 hover:border-primary/20 hover:bg-slate-50/50 transition-all cursor-pointer glass-card !border-0 hover:glow-heavy !rounded-[2rem] p-10">
+<div class="size-14 bg-slate-100 rounded-xl flex items-center justify-center text-slate-600 group-hover:bg-nepal-red group-hover:text-white transition-all mb-6">
+<span class="material-symbols-outlined text-3xl group-hover:scale-110 transition-transform">psychology</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 mb-4">Career Counseling</h4>
+<p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Personalized mapping of your academic background and passions to global career opportunities and university programs.
+                    </p>
+<a class="inline-flex items-center gap-2 text-nepal-red text-sm font-bold" href="#">
+                        Learn More <span class="material-symbols-outlined text-lg">arrow_right_alt</span>
+</a>
+</div>
+<!-- Service 3 -->
+<div class="group p-8 rounded-2xl border border-slate-100 hover:border-primary/20 hover:bg-slate-50/50 transition-all cursor-pointer glass-card !border-0 hover:glow-heavy !rounded-[2rem] p-10">
+<div class="size-14 bg-slate-100 rounded-xl flex items-center justify-center text-slate-600 group-hover:bg-nepal-blue group-hover:text-white transition-all mb-6">
+<span class="material-symbols-outlined text-3xl group-hover:scale-110 transition-transform">description</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 mb-4">Visa Documentation</h4>
+<p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        End-to-end assistance with complex visa applications, financial documentation, and mock interview preparations.
+                    </p>
+<a class="inline-flex items-center gap-2 text-nepal-blue text-sm font-bold" href="#">
+                        Learn More <span class="material-symbols-outlined text-lg">arrow_right_alt</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Team Teaser Module (Heroic Cards) -->
+<section class="py-24 bg-background-light overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="text-primary text-sm font-bold uppercase tracking-widest mb-4">The Experts</h2>
+<h3 class="text-4xl font-bold text-slate-900 text-6xl font-black tracking-tight">Architects of <br/>Your Future</h3>
+</div>
+<button class="bg-white border border-slate-200 px-8 py-3 rounded-full font-bold text-sm hover:bg-slate-50 transition-all">Meet Full Team</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Team Card 1 -->
+<div class="relative h-[450px] rounded-2xl overflow-hidden group">
+<img alt="Lead Counselor" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Professional male counselor in a suit smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1ckdPxTljLwvwp5ur7ueyjC1w3E4o1cbAANHJX3odF6-auvbfdGULwK_Y915dxkiMWo7oL3M2ZTJhBC_iaxtKYoHNd8jW3sOaBTPkpfZ_2ChpgmcqRWvvAaTHRnO5cYaLvjPdxmDtVM9aaYdAcCcCMxLdKJHZDSKEKJ3CbY3nAof_TJIMLOs72lhaad5vNXCIGHIx6FVe9zrBhO86VeZkSwC1aqnA8kKjlBSQ8gsGvofieweoayPYD5FW18rnov_f7lHLF0RAaQE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-nepal-blue/90 via-nepal-blue/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 right-0 p-8 transform transition-transform group-hover:-translate-y-4">
+<p class="text-nepal-gold text-xs font-bold uppercase mb-1">Director &amp; Head Counselor</p>
+<h4 class="text-xl font-bold text-white mb-2">Rabin Shrestha</h4>
+<div class="h-0 group-hover:h-12 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
+<p class="text-white/80 text-xs mb-4">15+ years experience in Canadian admissions.</p>
+<div class="flex gap-3">
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">link</span></span>
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">mail</span></span>
+</div>
+</div>
+</div>
+</div>
+<!-- Team Card 2 -->
+<div class="relative h-[450px] rounded-2xl overflow-hidden group">
+<img alt="Visa Expert" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Professional female expert holding a tablet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-C_W1ACJK3xuYGE7A8AzQPcN5UsZSlZCMSgz-lHfLbmtnahJeIuTDv-8R-vcNLONIzpnImHZF1OJKPOCjZjIhLzytYeSDqMHuFiOaE8DjKFAU6sANjC5AaqtOaAc2x36Qbw1fdWV2A_5ExsU09lsOISpq8DGurDAzMefWXcjPrWS3-j_68dSwykHETzKaZKhw0Rg6x8FP_FxwTAx9_GoZyP29gnZh4_yZBM-_nB9wC4C1kzbPFbaAuvjMma5qzvQ2mCRWWfMa3nY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-nepal-red/90 via-nepal-red/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 right-0 p-8 transform transition-transform group-hover:-translate-y-4">
+<p class="text-nepal-gold text-xs font-bold uppercase mb-1">Senior Visa Officer</p>
+<h4 class="text-xl font-bold text-white mb-2">Anita Karki</h4>
+<div class="h-0 group-hover:h-12 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
+<p class="text-white/80 text-xs mb-4">Specialist in high-risk visa profile handling.</p>
+<div class="flex gap-3">
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">link</span></span>
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">mail</span></span>
+</div>
+</div>
+</div>
+</div>
+<!-- Team Card 3 -->
+<div class="relative h-[450px] rounded-2xl overflow-hidden group">
+<img alt="IELTS Instructor" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Young professional man in casual smart wear" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDNwbqFAszc_PCL4Mk49E7-bI7ya9be3P1TSGjMYXXCHvyvKKYA-csteLdIRnmhXmOn16aD2ayMKG9FxJkgXtp19XRBYRt8kSt6r3cPOyBy9pjhLuKMJ5-1foxH02Al6K-BiUtNKBWry5f-5ZSvqvfh4Toz-APmqFBBE7pMzPoDcWsFli0MsOUElRU7wimVadUcfR9gPpd5OSovl7ggFIK3SuJWsdMgEnL9pPmLz7spRjjvHtPPX1mhfgTk-QjzsP3fYIV04uCXmI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 right-0 p-8 transform transition-transform group-hover:-translate-y-4">
+<p class="text-nepal-gold text-xs font-bold uppercase mb-1">Chief IELTS Instructor</p>
+<h4 class="text-xl font-bold text-white mb-2">Deepak Joshi</h4>
+<div class="h-0 group-hover:h-12 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
+<p class="text-white/80 text-xs mb-4">British Council certified trainer.</p>
+<div class="flex gap-3">
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">link</span></span>
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">mail</span></span>
+</div>
+</div>
+</div>
+</div>
+<!-- Team Card 4 -->
+<div class="relative h-[450px] rounded-2xl overflow-hidden group">
+<img alt="Student Relation" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Professional female smiling in an office setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4JjiP4YHfcCdnEykXI9BTFPOnS_qv6amBVIihkQREwVFxCrdvzmBdlvJhn5VtgXYV3yyPzMljlWFnQb8Jm9aZcjhdG0xjoy9g0AtkOFf06u2bnWkhzcNuNYyWfks6eNWwWm4HXPE4JFFaIsOGq_GmY6jt1Mr328lWNXV2wqIUkUC9INDhvn9KP-stGzZ7DRnzjfzKWodbEZw2NjkxNy3tB_ktQeyslFscpuXZdGaU712N_F9XXOneAxn_dGlRPN5p7WmTk9Hi95I"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 right-0 p-8 transform transition-transform group-hover:-translate-y-4">
+<p class="text-nepal-gold text-xs font-bold uppercase mb-1">Student Relations</p>
+<h4 class="text-xl font-bold text-white mb-2">Priya Thapa</h4>
+<div class="h-0 group-hover:h-12 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
+<p class="text-white/80 text-xs mb-4">Post-departure support specialist.</p>
+<div class="flex gap-3">
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">link</span></span>
+<span class="size-8 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">mail</span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer with Map Teaser -->
+<footer class="bg-slate-900 text-white pt-24 pb-12">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 lg:col-span-2 space-y-8">
+<div class="flex items-center gap-3">
+<div class="size-10 bg-nepal-blue rounded-lg flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<h1 class="font-bold text-2xl tracking-tight text-white">Lalitpur Global Ed</h1>
+</div>
+<p class="text-slate-400 max-w-md leading-relaxed">
+                    Empowering the youth of Nepal to reach global heights through quality education and expert guidance. Your future, our commitment.
+                </p>
+<div class="flex gap-4">
+<a class="size-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="size-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">share</span>
+</a>
+<a class="size-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">chat</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-bold mb-6">Quick Links</h4>
+<ul class="space-y-4 text-slate-400">
+<li><a class="hover:text-white transition-colors" href="#">Study in UK</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Study in Australia</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Test Prep Schedule</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Apply Now</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-bold mb-6">Lalitpur Office</h4>
+<ul class="space-y-4 text-slate-400">
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-nepal-red">location_on</span>
+<span>Pulchowk, Lalitpur, Nepal<br/>(Opposite to Labim Mall)</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-nepal-blue">call</span>
+<span>+977 1-4200000</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-nepal-gold">mail</span>
+<span>info@lalitpurglobal.edu.np</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 pt-12 border-t border-slate-800 flex flex-col md:row justify-between items-center gap-6">
+<p class="text-slate-500 text-sm">© 2024 Lalitpur Global Ed. Approved by Ministry of Education, Nepal.</p>
+<div class="flex items-center gap-6">
+<img alt="MOE Logo" class="grayscale brightness-200 opacity-30 h-8" data-alt="Government of Nepal Ministry of Education Logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAo67PrwjD1KzhyLtGadtHqhMW_ARzfzCam9305AlXceMZiM5GSN55aTPdbuKR0U00mmlmry-WyGYR9aIKFukQdilOXrvneitgzZnT1JLjXE3T-qxuxUookIb7bhGxwg07lDCh70aUqany6LeAlwKm72rHg0XbqpVZfiJl8XmM4nILOhgm3Cl-yWneIqsnjcFxR61FgL076S24o1NipJrIzpnTlWOZidzds7gmcVsiAR881jNkt6w1yQDkXyK72Y-kSbWvOEiWy43A"/>
+<img alt="British Council Logo" class="grayscale brightness-200 opacity-30 h-8" data-alt="British Council Certified Partner Logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsJaCiP6PYbMN5kuzpHW2jiVOtnZmzaRqCEHLwYmeQ9MXXDXp-06ruYXEcCwNi4aJfA4iyvF1Hcp-w0nHBdan0Ni3gVYD2Up0P4XBDQcOil48GRPQ_2_7SoW336tfuai5xMBii5LwoaGSFCwEaKlhubPhcQINT-Y3rmBfHZcOFRSeKKgjNhUMqniO5oRyLab9MZK9eBQzHpMmOSmRwhSTgLqOLBbS8Tt50mrgj-8Ys35o2z_Dq8FS_K88NmbubBkSGsXqsuyc9BNc"/>
+</div>
+</div>
+</footer>
+</body></html>
